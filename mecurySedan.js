@@ -1,5 +1,5 @@
 //this includes the vehicle class as a module
-const VehicleModule = require("./vehicleBaseClass");
+const VehicleModule = require("./vehicle.js");
 
 class Car extends VehicleModule {
   constructor(make, model, year, color, mileage) {
